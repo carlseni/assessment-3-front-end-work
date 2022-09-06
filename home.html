@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Hello World</h1>
+      <!-- insert hello world here -->
+      <p>Welcome to my first goofy website. it is a work in progress. I hope you find it interesting. I hope you don't find too many bugs.</p>
+      <img
+        src="https://chorus.stimg.co/21247633/dp01_v2.jpg?w=1203&h=361&format=auto%2Ccompress&cs=tinysrgb&auto=compress&crop=faces&dpr=1&fit=clip"
+      />
+
+      <ul>
+        <li>
+          You are good enough!
+        </li>
+        <li>
+          You are smart enough!
+        </li>
+        <li>
+          People like you!
+        </li>
+      </ul>
+
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+
+        Message:
+        <input type="textarea" />
+        <br />
+        How did you hear about us?
+        <div style="display: flex">
+          <input type="checkbox" id="google" />
+          <label for="google">Google</label>
+
+          <input type="checkbox" id="friend" />
+          <label for="friend">A friend</label>
+          <input type="checkbox" id="other" />
+          <label for="other">Other</label>
+        </div>
+        <br />
+        <input type="submit" />
+      </form>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>
